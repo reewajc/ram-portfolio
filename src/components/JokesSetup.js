@@ -7,7 +7,7 @@ function JokesSetup({setup, delivery, getAnotherJoke}) {
 
     return (
             <Fragment>
-                <h1 className="text-light text-center">Jokes from Jokes API</h1>
+                <h1 className="text-light text-center bg-dark">Jokes from Jokes API</h1>
             <p>
                 <span className="d-block p-2 bg-primary text-white">{setup}</span>
             </p>

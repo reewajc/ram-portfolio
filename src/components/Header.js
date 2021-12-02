@@ -25,11 +25,11 @@ function Header() {
 
     return (
         <Fragment>
-            <div className="jumbotron col-lg-11">
+                <pre/>
                 <h1 id="ram"><span id="firstR">R</span>am Chapagai</h1>
-                <span>{greet}</span>
+                <span className="text-bold">{greet}</span>
                 <div className="text-left text-success text-larger" id="greet"></div>
-            </div>
+           
         </Fragment>
     )
 }
