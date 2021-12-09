@@ -7,11 +7,15 @@ import Skills from './components/Skills';
 import Footer from './components/Footer';
 import About from './components/About';
 import Joke from './components/Joke';
+import CustomNavbar from './components/CustomNavbar';
+import Products from './components/Products';
 
 function App() {
   return (
     <div className="container App">
      <Header/>
+     <CustomNavbar/>
+      <pre/>
      <Skills/>
      <div className="row">
      <div className="col-lg-6 col-sm-12">
@@ -20,8 +24,9 @@ function App() {
      <div className="col-lg-6 col-sm-12">
      <About/>
      <Joke/>
-     </div>
      
+     </div>
+     <Products/>
      </div>
     
      <Footer/>
