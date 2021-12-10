@@ -1,21 +1,24 @@
 import Button from '@restart/ui/esm/Button'
 import React, { Fragment } from 'react'
 
-function JokesSetup({setup, delivery, getAnotherJoke}) {
+function JokesSetup(props) {
 
 
 
     return (
             <Fragment>
-                <h1 className="text-light text-center bg-dark">Jokes from Jokes API</h1>
-            <p>
-                <span className="d-block p-2 bg-primary text-white">{setup}</span>
+                <pre/>
+                <div className="jokes-setup">
+                <h1 style={{fontWeight:'bolder'}} className="text-light text-center bg-dark">Jokes from Jokes API</h1>
+            <p style={{height:'80px'}} >
+                <span className="d-block p-2 bg-primary text-white">{props.setup}</span>
             </p>
-            <p>
-                <span className="d-block p-2 bg-warning text-white">{delivery}</span>
+            <p style={{height:'80px'}}>
+                <span className="d-block p-2 bg-warning text-white">{props.delivery}</span>
             </p>
 
-            <button onClick={getAnotherJoke} className="btn btn-primary btn-lg">Next Joke..</button> 
+            <button onClick={props.getAnotherJoke} className="btn btn-primary btn-lg">Next Joke..</button> 
+            </div>
             </Fragment>
            
        

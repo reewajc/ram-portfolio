@@ -28,8 +28,7 @@ function Header() {
                 <pre/>
                 <h1 id="ram"><span id="firstR">R</span>am Chapagai</h1>
                 <span className="text-bold">{greet}</span>
-                <div className="text-left text-success text-larger" id="greet"></div>
-           
+                <div className="text-left text-success text-larger" id="greet"></div>         
         </Fragment>
     )
 }

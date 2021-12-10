@@ -11,6 +11,17 @@
 
 }
 
+.jokes-setup {
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+  height: 100vh;
+}
+
+.link-items{
+  color: white;
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

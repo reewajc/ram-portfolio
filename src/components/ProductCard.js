@@ -17,14 +17,16 @@ function ProductCard(props) {
         <Fragment >
            
             <div classNameName= "card col-lg-3" >
-                <img className="card-img-top" style={{height:300, width:250, display:'block', marginLeft:'auto', marginRight:'auto', borderRadius:'25px'}} src={props.image} alt="Card image cap" />
                 <div className="card-body">
+                <img className="card-img-top" style={{height:300, width:250, display:'block', marginLeft:'auto', marginRight:'auto', borderRadius:'25px'}} src={props.image} alt="Card image cap" />
+
                     <h4 className="card-title">{props.title}</h4>
-                    <p className="card-text">
+                    {/* <p className="card-text">
                        {description(props.description)}
-                    </p>
-                    <a href="#" className="btn btn-primary">Buy</a>
+                    </p> */}
+                   
                 </div>
+                <button href="#" className="btn btn-primary col-lg-3">Buy</button>
             </div>
            
         </Fragment>

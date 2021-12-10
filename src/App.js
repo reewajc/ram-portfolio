@@ -9,28 +9,23 @@ import About from './components/About';
 import Joke from './components/Joke';
 import CustomNavbar from './components/CustomNavbar';
 import Products from './components/Products';
+import Home from './components/Home';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container App">
-     <Header/>
-     <CustomNavbar/>
-      <pre/>
-     <Skills/>
-     <div className="row">
-     <div className="col-lg-6 col-sm-12">
-     <PictureCard/>
-     </div>
-     <div className="col-lg-6 col-sm-12">
-     <About/>
-     <Joke/>
-     
-     </div>
-     <Products/>
-     </div>
-    
-     <Footer/>
-    </div>
+    <Router>
+      <div className="container App">
+        <Header />
+        <CustomNavbar />
+      <Switch>
+        <Route exact path="/"><Home /></Route>
+        <Route exact path="/jokes"><Joke /></Route>
+        <Route exact path="/products"><Products /></Route>
+      </Switch>
+      <Footer/>
+      </div>
+    </Router>
   );
 }
 

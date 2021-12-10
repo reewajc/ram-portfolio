@@ -13,8 +13,7 @@ function About() {
             zone and knowledge set. I am continuously learning new languages,
             frameworks, and Software Development Life Cycle (SDLC). Currently, I
             am actively looking for a software developer or related position.</p>
-            </Fragment>
-        
+            </Fragment>     
  
     )
 }

@@ -17,8 +17,9 @@ function Skills() {
 
     return (
         <Fragment>
+            
             <h2 id="familiar" className="bg-dark text-center text-white">
-              I'm familiar with :  <br/> <span>{programmingLang}</span>
+              I'm familiar with : <br/> <span style={{color:'lime', fontWeight:'bolder'}}>{programmingLang}</span>
             </h2>
         </Fragment>
     )
