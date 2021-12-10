@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import { useState, useEffect } from 'react'
 import JokesSetup from './JokesSetup'
 import axios from 'axios'
+import Loading from './Loading'
 
 
 export default function Jokes() {
@@ -39,7 +40,7 @@ export default function Jokes() {
 
     return (
         <Fragment>
-            {loading ? <h1>Loading...</h1> :
+            {loading ? <Loading/> :
 
                 <JokesSetup setup={jokes.setup} delivery={jokes.delivery} getAnotherJoke={getAnotherJoke} />
             }
