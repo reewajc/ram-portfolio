@@ -11,6 +11,10 @@
 
 }
 
+.card{
+  cursor: pointer;
+}
+
 .jokes-setup {
   font-size: larger;
   font-weight: bold;

@@ -14,7 +14,7 @@ function ProductCard(props) {
     }
 
     return (
-        <Fragment >
+     
            
             <div classNameName= "card col-lg-3" >
                 <div className="card-body">
@@ -29,7 +29,7 @@ function ProductCard(props) {
                 <button href="#" className="btn btn-primary col-lg-3">Buy</button>
             </div>
            
-        </Fragment>
+     
     )
 }
 

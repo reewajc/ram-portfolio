@@ -8,9 +8,9 @@ function PictureCard() {
 
     const rampic = 'assets/images/ram.png'
     return (
-        <Fragment >
+       
            
-            <div classNameName="card " >
+            <div classNameName="card" >
                 <img className="card-img-top" style={{height:400, width:300, display:'block', marginLeft:'auto', marginRight:'auto', borderRadius:'25px'}} src={ram} alt="Card image cap" />
                 <div className="card-body">
                     <h3 className="card-title bg-dark">Full Stack Java Developer</h3>
@@ -26,7 +26,7 @@ function PictureCard() {
                 </div>
             </div>
            
-        </Fragment>
+        
     )
 }
 
